@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram id="Vb3qA8FEz6crejEJIcN5" name="Страница — 1">
+    <mxGraphModel dx="1114" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-176" target="l_KSee1SXf0kxzWpBXSV-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-176" value="Начало" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-178">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-178" value="Ввести&lt;br&gt;inputFile,numbers,&lt;div&gt;outputFileBubble,&lt;div&gt;outputFileRank&lt;/div&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="100" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-181" target="l_KSee1SXf0kxzWpBXSV-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-181" value="ReadDataFromFile&lt;div&gt;(inputFile, numbers)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="200" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-183">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-183" value="&lt;div&gt;BubbleSort(numbers, Descending)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; WriteDataToFile&lt;/div&gt;&lt;div&gt;(outputFileBubble, numbers)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-185">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-185" value="ReadDataFromFile&lt;div&gt;(inputFile, numbers)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="420" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-188" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-186" target="l_KSee1SXf0kxzWpBXSV-189">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-186" value="&lt;div&gt;RankSort(numbers, Descending)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; WriteDataToFile&lt;/div&gt;&lt;div&gt;(outputFileRank, numbers)&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="524.5" width="200" height="85.5" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="l_KSee1SXf0kxzWpBXSV-189" target="l_KSee1SXf0kxzWpBXSV-191">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-189" value="Файлы сохранились в папки:&amp;nbsp; outputFileBubble&amp;nbsp; and&amp;nbsp;&amp;nbsp;&lt;div&gt;outputFileRadix&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="660" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="l_KSee1SXf0kxzWpBXSV-191" value="Конец" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="790" width="180" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

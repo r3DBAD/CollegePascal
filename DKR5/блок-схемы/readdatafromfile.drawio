@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="ObrJTJhlD1_BNXab8cbZ">
+    <mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="B3hCheoWp8zwCmhWulEi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="522" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-21" value="Начало&lt;div&gt;ReadDataFromFile&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="454" y="40" width="136" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-23" target="B3hCheoWp8zwCmhWulEi-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-23" value="Ввести filename,arr" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-25" target="B3hCheoWp8zwCmhWulEi-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-25" value="&lt;div&gt;РаспаковатьФайл(file, fileName)&lt;/div&gt;&lt;div&gt;&amp;nbsp; Сбросить(file)&lt;/div&gt;&lt;div&gt;&amp;nbsp; count = 0&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-27" target="B3hCheoWp8zwCmhWulEi-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-27" value="Цикл 1&lt;div&gt;(Пока не конец файла)&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-29" target="B3hCheoWp8zwCmhWulEi-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-29" value="Ввести (file, num)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-31" target="B3hCheoWp8zwCmhWulEi-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-31" value="&lt;div&gt;ПрибавитьЕдиницу(count)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; ЗадатьДлину(arr, count)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; arr[count - 1] = num&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="480" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-33" target="B3hCheoWp8zwCmhWulEi-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-33" value="Цикл 1" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="450" y="590" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B3hCheoWp8zwCmhWulEi-35" target="B3hCheoWp8zwCmhWulEi-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-35" value="ЗакрытьФайл(file)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B3hCheoWp8zwCmhWulEi-36" value="Конец&lt;div&gt;ReadDataFromFile&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="750" width="150" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

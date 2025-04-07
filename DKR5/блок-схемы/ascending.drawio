@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
+  <diagram name="Страница — 1" id="26g38Lpi_LiVlZbMlhuH">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4Jn9C0jq0-JPjRTwGux-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-12" value="Начало&lt;div&gt;Ascending&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="10" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4Jn9C0jq0-JPjRTwGux-14" target="U4Jn9C0jq0-JPjRTwGux-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-14" value="Ввести a,b" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="90" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="U4Jn9C0jq0-JPjRTwGux-16" target="U4Jn9C0jq0-JPjRTwGux-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-16" value="Ascending = a &amp;gt; b" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="180" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U4Jn9C0jq0-JPjRTwGux-17" value="Конец&lt;div&gt;Ascending&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="250" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mzMOUxtRFe1stgDWz0tn-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="95" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mzMOUxtRFe1stgDWz0tn-2" value="По значению" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="105" width="100" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
