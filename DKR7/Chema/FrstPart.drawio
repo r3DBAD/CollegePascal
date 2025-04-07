@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.10">
+  <diagram name="Страница — 1" id="hi3maOYxdtd5-xxtNOdB">
+    <mxGraphModel dx="554" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-13" target="Io2_79ap3ZeYCi0wvSEB-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-13" value="Начало&lt;div&gt;FrstPart&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="255" y="10" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-15" value="Ввести&lt;div&gt;x1,y1,x2,y2,n&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="255" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-17" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" vertex="1" connectable="0" parent="Io2_79ap3ZeYCi0wvSEB-16">
+          <mxGeometry x="-0.0744" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="491" y="430" />
+              <mxPoint x="491" y="431" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-19" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Io2_79ap3ZeYCi0wvSEB-18">
+          <mxGeometry x="-0.2842" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-20" value="n = 0" style="rhombus;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="241" y="380" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-22" target="Io2_79ap3ZeYCi0wvSEB-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;dx := (x2 - x1) / 3&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;dy := (y2 - y1) / 3&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;xA := x1 + dx&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;yA := y1 + dy&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;xB := x1 + 2 * dx&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;yB := y1 + 2 * dy&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="241" y="540" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-24" target="Io2_79ap3ZeYCi0wvSEB-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-24" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;xC := (xA + xB) / 2 - (yB - yA) * sqrt(3) / 2&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;yC := (yA + yB) / 2 + (xB - xA) * sqrt(3) / 2&lt;/font&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="231" y="680" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-26" target="Io2_79ap3ZeYCi0wvSEB-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-26" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FrstPart(x1, y1, xA, yA, n - 1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="820" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-28" target="Io2_79ap3ZeYCi0wvSEB-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FrstPart(xA, yA, xC, yC, n - 1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="900" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-30" target="Io2_79ap3ZeYCi0wvSEB-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-30" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FrstPart(xC, yC, xB, yB, n - 1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="980" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-32" target="Io2_79ap3ZeYCi0wvSEB-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-32" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;FrstPart(xB, yB, x2, y2, n - 1)&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="1060" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-33" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Конец&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;KochCurve&lt;/font&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="256" y="1160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="311" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561" y="850" />
+              <mxPoint x="562" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-35" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Line(round(x1), round(y1), round(x2), round(y2))&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="471" y="460" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-36" target="Io2_79ap3ZeYCi0wvSEB-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-36" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Scale = 1.0&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;OffsetX = 0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;OffsetY = 0&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;Depth = 0&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Io2_79ap3ZeYCi0wvSEB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.558;entryY=0.038;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Io2_79ap3ZeYCi0wvSEB-15" target="Io2_79ap3ZeYCi0wvSEB-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
